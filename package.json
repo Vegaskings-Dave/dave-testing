@@ -1,5 +1,5 @@
 {
-  "name": "headless-cms",
+  "name": "shortcode-cms",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.1",
-    "@strapi/plugin-users-permissions": "4.7.1",
     "@strapi/strapi": "4.7.1",
     "pg": "8.8.0"
   },
@@ -19,7 +18,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "c4a9dc60-f955-4c9d-850a-2db312b41a78"
+    "uuid": "dae4fd6f-4dbf-4a52-bb79-1cd0fe587c7e"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

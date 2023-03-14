@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sportsbooks",
+  "info": {
+    "singularName": "sportsbook",
+    "pluralName": "sportsbooks",
+    "displayName": "Sportsbook",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo_Link": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Offer": {
+      "type": "string"
+    },
+    "State": {
+      "type": "component",
+      "repeatable": true,
+      "component": "states.state"
+    }
+  }
+}
