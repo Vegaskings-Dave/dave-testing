@@ -1,13 +1,15 @@
 {
   "collectionName": "components_states_states",
   "info": {
-    "displayName": "State"
+    "displayName": "State",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "State": {
       "type": "enumeration",
       "enum": [
+        "Default_link",
         "Alabama",
         "Alaska",
         "Arizona",

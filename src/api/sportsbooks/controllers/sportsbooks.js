@@ -15,6 +15,15 @@ module.exports = {
             $contains: filter_by.state
           }
         }
+      },
+      populate: {
+        State: {
+          where: {
+            State: {
+              $contains: filter_by.state
+            }
+          }
+        }
       }
     })
 
@@ -26,6 +35,15 @@ module.exports = {
     const defualt_entry = await strapi.db.query('api::sportsbook.sportsbook').findOne({
       where: {
         Default: true
+      },
+      populate: {
+        State: {
+          where: {
+            State: {
+              $contains: 'Default_link'
+            }
+          }
+        }
       }
     })
     ctx.body = defualt_entry
