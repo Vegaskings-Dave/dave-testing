@@ -34,9 +34,7 @@ module.exports = {
       return;
     }
 
-    const defualt_entry = await strapi.db
-      .query("api::sportsbook.sportsbook")
-      .findOne({
+    const defualt_entry = await strapi.db.query("api::sportsbook.sportsbook").findOne({
         where: {
           Default: true,
         },
