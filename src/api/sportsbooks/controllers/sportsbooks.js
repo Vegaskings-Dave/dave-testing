@@ -14,7 +14,7 @@ module.exports = {
               $contains: filter_by.state,
             },
           },
-          publsihedAt: {
+          publishedAt: {
             $ne: null,
           },
         },
