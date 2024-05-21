@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "payout": {
+      "type": "richtext"
+    },
+    "offerAmount": {
+      "type": "float"
+    },
+    "timeStart": {
+      "type": "datetime"
+    },
+    "timeEnd": {
+      "type": "datetime"
+    },
+    "offerCode": {
+      "type": "string"
+    }
+  }
+}

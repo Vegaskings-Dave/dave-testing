@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_country_countries",
+  "info": {
+    "displayName": "Data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "payout": {
+      "type": "richtext"
+    },
+    "offerAmount": {
+      "type": "float"
+    },
+    "timeStart": {
+      "type": "datetime"
+    },
+    "timeEnd": {
+      "type": "datetime"
+    }
+  }
+}
