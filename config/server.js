@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  proxy: true,
+  host: env('HOST'),
   url: env('HOST_URL'),
   app: {
     keys: env.array('APP_KEYS'),
